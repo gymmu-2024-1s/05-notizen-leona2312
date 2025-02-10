@@ -124,3 +124,20 @@ Wenn man von einer anderen Klasse erbt dann ist es Veränderung. Erweitern ist d
     <p class="price">${article.price}</p>
   </article> //das ist der Code
 ```
+
+Ein Bit ist eine Speicherzelle
+
+Ein Bite ist 8 dieser Bits
+
+1111 1111 = 1 _ 2^7 + 1 _ 2^6 + 1 _ 2^5 + 1 _ 2^4 + 1 _ 2^3 + 1 _ 2^2 + 1 _
+2^1 + 1 _ 2^0 = 255 (2 --> Weil es nur zwei Zahlen gibt (0&1))
+
+Hexadezimalsystem --> FF = 15 _ 16^1 + 15 _ 16^0 (FF ist eine Zahl im
+Hexadezimalsystem) Wie viele stellen braucht man im Hexadezimalsystem, um einen
+Bite zu haben?:
+
+#FF00FF--> Erste Bit (FF) ist der rot Anteil, zweiter Bit (00) ist grün Anteil,
+Letzter Bit (FF) ist der blau Anteil, vierter Bit (FF) ist Alpha-Wert. Der
+Alpha-Wert gibt an, wie Transparent es sein soll. Alpha Wert: FF = nicht
+transparent, AA transparent Farben: #0F00000A #BBBBBBBF #FFAAAAAF #AA000AAC
+#ff0000 #00ff00 #0000ff #ffffff #000000 #ffff00
